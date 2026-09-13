@@ -6,8 +6,21 @@ dist/
 .vite/
 *.tsbuildinfo
 
-# OS files
+# test / coverage
+coverage/
+
+# caches
+.cache/
+.parcel-cache/
+.next/
+.turbo/
+.eslintcache
+
+# editor / OS files
 .DS_Store
+.idea/
+.vscode/
 
 # logs
 npm-debug.log*
+*.log
